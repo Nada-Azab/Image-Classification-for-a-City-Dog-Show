@@ -1,0 +1,52 @@
+Command Line Arguments:
+     dir = uploaded_images/ 
+    arch = alexnet 
+ dogfile = dognames.txt
+
+Pet Image Label Dictionary has 4 key-value pairs.
+Below are 4 of them:
+ 1 key:                   Adog_01.jpeg  label:                       adog
+ 2 key:                    Adog_02.jpg  label:                       adog
+ 3 key:                       Cat.jpeg  label:                           
+ 4 key:                    Coffee.jpeg  label:                           
+
+     MATCH:
+
+                      Cat.jpeg: 
+Real:                              Classifier:          tabby, tabby cat, cat
+
+                   Coffee.jpeg: 
+Real:                              Classifier:                       espresso
+
+ NOT A MATCH:
+
+                  Adog_01.jpeg: 
+Real:                       adog   Classifier:                       komondor
+
+                   Adog_02.jpg: 
+Real:                       adog   Classifier: hen-of-the-woods, hen of the woods, polyporus frondosus, grifola frondosa
+
+# Total Images 4 # Matches: 2 # NOT Matches: 2
+224
+
+     MATCH:
+
+                      Cat.jpeg: 
+Real:                              Classifier:          tabby, tabby cat, cat  
+PetLabelDog: 0  ClassLabelDog: 0
+
+                   Coffee.jpeg: 
+Real:                              Classifier:                       espresso  
+PetLabelDog: 0  ClassLabelDog: 0
+
+ NOT A MATCH:
+
+                  Adog_01.jpeg: 
+Real:                       adog   Classifier:                       komondor  
+PetLabelDog: 0  ClassLabelDog: 1
+
+                   Adog_02.jpg: 
+Real:                       adog   Classifier: hen-of-the-woods, hen of the woods, polyporus frondosus, grifola frondosa  
+PetLabelDog: 0  ClassLabelDog: 0
+
+# Total Images 4 # Matches: 2 # NOT Matches: 2
