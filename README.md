@@ -1,4 +1,5 @@
 # Image-Classification-for-a-City-Dog-Show
+
 ###My tasks in project:
 >Using your Python skills, you will determine which image classification algorithm works the "best" on classifying images as "dogs" or "not dogs".
 
